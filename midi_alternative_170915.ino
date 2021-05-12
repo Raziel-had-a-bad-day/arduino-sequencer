@@ -22,7 +22,7 @@
 
 
 MIDI_CREATE_DEFAULT_INSTANCE();
-LiquidCrystalFast lcd (2, 12,3, 10, 11, 5, 7 );
+LiquidCrystalFast lcd (2, 12,3, 10, 11, 5, 7 ); //
 using namespace midi;
 
 const byte MajorNote[]= { 0,2,4,5,7,9,11,12,14,16,17,19,21,23,24} ;  // major
